@@ -1,0 +1,57 @@
+/* Scss Document */
+/* Color Variables*/
+/* Coding */
+body {
+  background-color: #103C47; }
+
+header {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: #31939C;
+  color: #FFF7E0;
+  font-size: 250%;
+  padding: 15px;
+  margin-top: 25px; }
+
+nav {
+  background-color: #31939C;
+  width: 80%;
+  margin: auto;
+  padding: 15px;
+  border: 1px solid #103C47; }
+
+ul li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px; }
+
+li a {
+  font-size: 150%;
+  color: #FFF7E0;
+  text-decoration: none; }
+
+.main {
+  width: 80%;
+  border: 5px solid #31939C;
+  margin: auto;
+  padding: 10px;
+  margin-top: 5px; }
+
+footer {
+  background-color: #31939C;
+  width: 80%;
+  margin: auto;
+  margin-top: 5px;
+  padding: 15px; }
+
+footer p {
+  font-size: 150%;
+  color: #FFF7E0;
+  text-decoration: none; }
+
+.email {
+  color: #FFF7E0;
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
