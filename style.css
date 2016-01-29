@@ -12,14 +12,18 @@ header {
   color: #FFF7E0;
   padding: 15px;
   margin-top: 25px;
-  font: 250% Arial, Helvetica, sans-serif; }
+  font: 250% Arial, Helvetica, sans-serif;
+  float: left;
+  margin-left: 8.5%; }
 
 nav {
   background-color: #31939C;
   width: 80%;
   margin: auto;
   padding: 15px;
-  border: 1px solid #103C47; }
+  border: 1px solid #103C47;
+  float: left;
+  margin-left: 8.4%; }
 
 ul li {
   display: inline-block;
@@ -36,9 +40,11 @@ li a {
   border: 5px solid #31939C;
   margin: auto;
   padding: 10px;
-  margin-top: 5px; }
+  margin-top: 5px;
+  float: left;
+  margin-left: 8.5%; }
   .main p {
-    font: 100% Arial, Helvetica, sans-serif;
+    font: 125% Arial, Helvetica, sans-serif;
     color: #FFF7E0; }
 
 footer {
@@ -46,7 +52,9 @@ footer {
   width: 80%;
   margin: auto;
   margin-top: 5px;
-  padding: 15px; }
+  padding: 15px;
+  float: left;
+  margin-left: 8.5%; }
   footer p {
     font: 150% Arial, Helvetica, sans-serif;
     color: #FFF7E0;
@@ -63,6 +71,24 @@ h2 {
 .text {
   padding: 10px;
   width: 45%;
-  background-color: #1f5c62; }
+  background-color: #1f5c62;
+  float: left; }
+
+img {
+  width: 45%;
+  height: auto;
+  float: right;
+  border: 10px solid #175666; }
+
+.me {
+  width: 100%;
+  float: left;
+  background-color: #175666;
+  margin-bottom: 10px; }
+
+.me-text {
+  padding: 10px;
+  width: 45%;
+  float: left; }
 
 /*# sourceMappingURL=style.css.map */

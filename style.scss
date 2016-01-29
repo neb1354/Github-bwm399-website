@@ -8,6 +8,7 @@ $fill: #31939C;
 $text: #FFF7E0;
 $font:   Arial, Helvetica, sans-serif;
 $darken: 15%;
+$lighten:7.5%;
 
 /* Coding */
 
@@ -23,6 +24,9 @@ header{
  padding:15px;
  margin-top:25px;
  font: 250% $font;
+ float:left;
+margin-left:8.5%;
+
 }
 nav{
  background-color:$fill;
@@ -30,6 +34,9 @@ nav{
  margin:auto;
  padding:15px;
  border:1px solid $base;
+ float:left;
+margin-left:8.4%;
+
 }
 ul li {
 display:inline-block;
@@ -43,12 +50,15 @@ li a{
 }
 .main{
 width:80%;
+
 border: 5px solid $fill;
 margin:auto;
 padding:10px;
 margin-top:5px;
+float:left;
+margin-left:8.5%;
  p{
-	font: 100% $font;
+	font: 125% $font;
 	color: $text; 
  }
 }
@@ -59,7 +69,9 @@ margin-top:5px;
  margin:auto;
  margin-top:5px;
  padding:15px;
- 
+ float:left;
+margin-left:8.5%;
+
  	p{
 	font: 150% $font;
 	color: $text;
@@ -79,4 +91,28 @@ h2{
 padding:10px;
 width:45%;	
 background-color:darken($fill, $darken);
+float:left;
+
+}
+img{
+	 width: 45%;
+    height: auto;
+	float:right;
+	
+	border: 10px solid (lighten($base, $lighten));
+
+}
+.me{
+width:100%;
+float:left;	
+background-color:lighten($base, $lighten);
+margin-bottom:10px;
+}
+
+.me-text{
+padding:10px;
+width:45%;	
+
+float:left;	
+
 }
