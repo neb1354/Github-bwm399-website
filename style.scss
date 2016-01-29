@@ -2,7 +2,8 @@
 
 
 
-/* Color Variables*/
+// Color Variables
+
 $base: #103C47;
 $fill: #31939C;
 $text: #FFF7E0;
@@ -16,7 +17,7 @@ $lighten:7.5%;
 
 
 
-/*Mixins*/
+//Mixins
 
 @mixin bigFont{
 font-size:$fontSizeBig;	
@@ -39,7 +40,7 @@ text-decoration:none;
 	
 }
 
-/* Coding */
+//code
 
 body{
  background-color:$base;
@@ -141,10 +142,11 @@ width:45%;
 float:left;	
 
 }
+
+//extra credit
 .extraCredit{
 @extend .text;	
 float:right;
 }
 
-/*EXTRA CREDIT*/
 
