@@ -1,5 +1,6 @@
 /* Scss Document */
 /* Color Variables*/
+/*Mixins*/
 /* Coding */
 body {
   background-color: #103C47; }
@@ -9,12 +10,14 @@ header {
   margin: auto;
   text-align: center;
   background-color: #31939C;
-  color: #FFF7E0;
   padding: 15px;
   margin-top: 25px;
-  font: 250% Arial, Helvetica, sans-serif;
   float: left;
-  margin-left: 8.5%; }
+  margin-left: 8.5%;
+  font-size: 250%;
+  color: #FFF7E0;
+  font: Arial, Helvetica, sans-serif;
+  text-decoration: none; }
 
 nav {
   background-color: #31939C;
@@ -30,9 +33,10 @@ ul li {
   text-decoration: none;
   padding: 2%; }
 
-li a {
-  font: 150% Arial, Helvetica, sans-serif;
+h2, li a {
+  font-size: 150%;
   color: #FFF7E0;
+  font: Arial, Helvetica, sans-serif;
   text-decoration: none; }
 
 .main {
@@ -44,8 +48,10 @@ li a {
   float: left;
   margin-left: 8.5%; }
   .main p {
-    font: 125% Arial, Helvetica, sans-serif;
-    color: #FFF7E0; }
+    font-size: 125%;
+    color: #FFF7E0;
+    font: Arial, Helvetica, sans-serif;
+    text-decoration: none; }
 
 footer {
   background-color: #31939C;
@@ -56,17 +62,14 @@ footer {
   float: left;
   margin-left: 8.5%; }
   footer p {
-    font: 150% Arial, Helvetica, sans-serif;
+    font-size: 150%;
     color: #FFF7E0;
+    font: Arial, Helvetica, sans-serif;
     text-decoration: none; }
 
 .email {
   color: #FFF7E0;
   text-decoration: none; }
-
-h2 {
-  font: 150% Arial, Helvetica, sans-serif;
-  color: #FFF7E0; }
 
 .text {
   padding: 10px;
