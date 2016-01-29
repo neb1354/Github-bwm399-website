@@ -6,8 +6,8 @@
 $base: #103C47;
 $fill: #31939C;
 $text: #FFF7E0;
-
-
+$font:   Arial, Helvetica, sans-serif;
+$darken: 15%;
 
 /* Coding */
 
@@ -20,9 +20,9 @@ header{
  text-align: center;
  background-color:$fill;
  color: $text;  
- font-size:250%;
  padding:15px;
  margin-top:25px;
+ font: 250% $font;
 }
 nav{
  background-color:$fill;
@@ -34,10 +34,10 @@ nav{
 ul li {
 display:inline-block;
 text-decoration:none;
-padding:15px;	
+padding:2%;	
 }
 li a{
-	font-size:150%;
+	 font: 150% $font;
 	color: $text;
 	text-decoration:none;
 }
@@ -47,23 +47,36 @@ border: 5px solid $fill;
 margin:auto;
 padding:10px;
 margin-top:5px;
-	
+ p{
+	font: 100% $font;
+	color: $text; 
+ }
 }
-footer{
+
+ footer{
  background-color:$fill;
  width: 80%;
  margin:auto;
  margin-top:5px;
  padding:15px;
-}
-footer p {
-	font-size:150%;
+ 
+ 	p{
+	font: 150% $font;
 	color: $text;
 	text-decoration:none;
-	
-}
-.email{
+	}
+ }
+ .email{
 	color: $text;
 	text-decoration:none;	
 	
+}
+h2{
+	font: 150% $font;
+	color: $text;
+}
+.text{
+padding:10px;
+width:45%;	
+background-color:darken($fill, $darken);
 }

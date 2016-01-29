@@ -10,9 +10,9 @@ header {
   text-align: center;
   background-color: #31939C;
   color: #FFF7E0;
-  font-size: 250%;
   padding: 15px;
-  margin-top: 25px; }
+  margin-top: 25px;
+  font: 250% Arial, Helvetica, sans-serif; }
 
 nav {
   background-color: #31939C;
@@ -24,10 +24,10 @@ nav {
 ul li {
   display: inline-block;
   text-decoration: none;
-  padding: 15px; }
+  padding: 2%; }
 
 li a {
-  font-size: 150%;
+  font: 150% Arial, Helvetica, sans-serif;
   color: #FFF7E0;
   text-decoration: none; }
 
@@ -37,6 +37,9 @@ li a {
   margin: auto;
   padding: 10px;
   margin-top: 5px; }
+  .main p {
+    font: 100% Arial, Helvetica, sans-serif;
+    color: #FFF7E0; }
 
 footer {
   background-color: #31939C;
@@ -44,14 +47,22 @@ footer {
   margin: auto;
   margin-top: 5px;
   padding: 15px; }
-
-footer p {
-  font-size: 150%;
-  color: #FFF7E0;
-  text-decoration: none; }
+  footer p {
+    font: 150% Arial, Helvetica, sans-serif;
+    color: #FFF7E0;
+    text-decoration: none; }
 
 .email {
   color: #FFF7E0;
   text-decoration: none; }
+
+h2 {
+  font: 150% Arial, Helvetica, sans-serif;
+  color: #FFF7E0; }
+
+.text {
+  padding: 10px;
+  width: 45%;
+  background-color: #1f5c62; }
 
 /*# sourceMappingURL=style.css.map */
